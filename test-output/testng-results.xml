@@ -1,163 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29489" started-at="2021-10-17T13:53:49 IST" finished-at="2021-10-17T13:54:18 IST">
+  <suite name="sample test suite" duration-ms="122153" started-at="2021-10-17T16:03:40 IST" finished-at="2021-10-17T16:05:42 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29489" started-at="2021-10-17T13:53:49 IST" finished-at="2021-10-17T13:54:18 IST">
-      <class name="com.jenkins.test.TestngClass">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jenkins.test.TestngClass@27f723]" name="setup" is-config="true" duration-ms="25550" started-at="2021-10-17T13:53:23 IST" finished-at="2021-10-17T13:53:49 IST">
+    <test name="Orange Test" duration-ms="122153" started-at="2021-10-17T16:03:40 IST" finished-at="2021-10-17T16:05:42 IST">
+      <class name="com.jenkins.test.TestngClass_FireFox">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jenkins.test.TestngClass_FireFox@5ed828d]" name="setup" is-config="true" duration-ms="0" started-at="2021-10-17T16:03:40 IST" finished-at="2021-10-17T16:03:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforetest()[pri:0, instance:com.jenkins.test.TestngClass@27f723]" name="beforetest" is-config="true" duration-ms="2" started-at="2021-10-17T13:53:49 IST" finished-at="2021-10-17T13:53:49 IST">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:com.jenkins.test.TestngClass_FireFox@5ed828d]" name="beforetest" is-config="true" duration-ms="0" started-at="2021-10-17T16:03:40 IST" finished-at="2021-10-17T16:03:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetest -->
-        <test-method status="PASS" signature="Maxwindow()[pri:0, instance:com.jenkins.test.TestngClass@27f723]" name="Maxwindow" is-config="true" duration-ms="1" started-at="2021-10-17T13:53:49 IST" finished-at="2021-10-17T13:53:49 IST">
+        <test-method status="PASS" signature="Maxwindow()[pri:0, instance:com.jenkins.test.TestngClass_FireFox@5ed828d]" name="Maxwindow" is-config="true" duration-ms="29327" started-at="2021-10-17T16:04:29 IST" finished-at="2021-10-17T16:04:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Maxwindow -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.jenkins.test.TestngClass@27f723]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2021-10-17T13:53:49 IST" finished-at="2021-10-17T13:53:49 IST">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.jenkins.test.TestngClass_FireFox@5ed828d]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2021-10-17T16:04:58 IST" finished-at="2021-10-17T16:04:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="Job_title()[pri:0, instance:com.jenkins.test.TestngClass@27f723]" name="Job_title" duration-ms="7773" started-at="2021-10-17T13:53:49 IST" finished-at="2021-10-17T13:53:57 IST">
+        <test-method status="PASS" signature="Job_title()[pri:0, instance:com.jenkins.test.TestngClass_FireFox@5ed828d]" name="Job_title" duration-ms="8759" started-at="2021-10-17T16:04:58 IST" finished-at="2021-10-17T16:05:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Job_title -->
-        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.jenkins.test.TestngClass@27f723]" name="aftermethod" is-config="true" duration-ms="2" started-at="2021-10-17T13:53:57 IST" finished-at="2021-10-17T13:53:57 IST">
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.jenkins.test.TestngClass_FireFox@5ed828d]" name="aftermethod" is-config="true" duration-ms="3" started-at="2021-10-17T16:05:07 IST" finished-at="2021-10-17T16:05:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.jenkins.test.TestngClass@27f723]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2021-10-17T13:53:57 IST" finished-at="2021-10-17T13:53:57 IST">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.jenkins.test.TestngClass_FireFox@5ed828d]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2021-10-17T16:05:07 IST" finished-at="2021-10-17T16:05:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="paygrade()[pri:1, instance:com.jenkins.test.TestngClass@27f723]" name="paygrade" duration-ms="7008" started-at="2021-10-17T13:53:57 IST" finished-at="2021-10-17T13:54:04 IST">
+        <test-method status="PASS" signature="paygrade()[pri:1, instance:com.jenkins.test.TestngClass_FireFox@5ed828d]" name="paygrade" duration-ms="7625" started-at="2021-10-17T16:05:07 IST" finished-at="2021-10-17T16:05:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- paygrade -->
-        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.jenkins.test.TestngClass@27f723]" name="aftermethod" is-config="true" duration-ms="1" started-at="2021-10-17T13:54:04 IST" finished-at="2021-10-17T13:54:04 IST">
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.jenkins.test.TestngClass_FireFox@5ed828d]" name="aftermethod" is-config="true" duration-ms="1" started-at="2021-10-17T16:05:15 IST" finished-at="2021-10-17T16:05:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.jenkins.test.TestngClass@27f723]" name="BeforeMethod" is-config="true" duration-ms="4" started-at="2021-10-17T13:54:04 IST" finished-at="2021-10-17T13:54:04 IST">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.jenkins.test.TestngClass_FireFox@5ed828d]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2021-10-17T16:05:15 IST" finished-at="2021-10-17T16:05:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="EmployeeStatus()[pri:2, instance:com.jenkins.test.TestngClass@27f723]" name="EmployeeStatus" duration-ms="3762" started-at="2021-10-17T13:54:04 IST" finished-at="2021-10-17T13:54:08 IST">
+        <test-method status="PASS" signature="EmployeeStatus()[pri:2, instance:com.jenkins.test.TestngClass_FireFox@5ed828d]" name="EmployeeStatus" duration-ms="4609" started-at="2021-10-17T16:05:15 IST" finished-at="2021-10-17T16:05:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EmployeeStatus -->
-        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.jenkins.test.TestngClass@27f723]" name="aftermethod" is-config="true" duration-ms="1" started-at="2021-10-17T13:54:08 IST" finished-at="2021-10-17T13:54:08 IST">
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.jenkins.test.TestngClass_FireFox@5ed828d]" name="aftermethod" is-config="true" duration-ms="1" started-at="2021-10-17T16:05:19 IST" finished-at="2021-10-17T16:05:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.jenkins.test.TestngClass@27f723]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2021-10-17T13:54:08 IST" finished-at="2021-10-17T13:54:08 IST">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.jenkins.test.TestngClass_FireFox@5ed828d]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2021-10-17T16:05:19 IST" finished-at="2021-10-17T16:05:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="category()[pri:3, instance:com.jenkins.test.TestngClass@27f723]" name="category" duration-ms="5782" started-at="2021-10-17T13:54:08 IST" finished-at="2021-10-17T13:54:13 IST">
+        <test-method status="PASS" signature="category()[pri:3, instance:com.jenkins.test.TestngClass_FireFox@5ed828d]" name="category" duration-ms="6894" started-at="2021-10-17T16:05:19 IST" finished-at="2021-10-17T16:05:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- category -->
-        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.jenkins.test.TestngClass@27f723]" name="aftermethod" is-config="true" duration-ms="2" started-at="2021-10-17T13:54:13 IST" finished-at="2021-10-17T13:54:13 IST">
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.jenkins.test.TestngClass_FireFox@5ed828d]" name="aftermethod" is-config="true" duration-ms="1" started-at="2021-10-17T16:05:26 IST" finished-at="2021-10-17T16:05:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.jenkins.test.TestngClass@27f723]" name="BeforeMethod" is-config="true" duration-ms="3" started-at="2021-10-17T13:54:13 IST" finished-at="2021-10-17T13:54:13 IST">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.jenkins.test.TestngClass_FireFox@5ed828d]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2021-10-17T16:05:26 IST" finished-at="2021-10-17T16:05:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="FAIL" signature="workshift()[pri:4, instance:com.jenkins.test.TestngClass@27f723]" name="workshift" duration-ms="4958" started-at="2021-10-17T13:54:13 IST" finished-at="2021-10-17T13:54:18 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: //option[contains(text(),'Maggie Manning')]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'MAVBCP3488', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 93.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927210923, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15644, moz:profile: C:\Users\divyajo\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7c198e4a-fd8d-456c-8669-7b7fa942b352
-*** Element info: {Using=xpath, value=//option[contains(text(),'Maggie Manning')]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //option[contains(text(),'Maggie Manning')]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'MAVBCP3488', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 93.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927210923, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15644, moz:profile: C:\Users\divyajo\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7c198e4a-fd8d-456c-8669-7b7fa942b352
-*** Element info: {Using=xpath, value=//option[contains(text(),'Maggie Manning')]}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.jenkins.test.TestngClass.workshift(TestngClass.java:162)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method status="PASS" signature="workshift()[pri:4, instance:com.jenkins.test.TestngClass_FireFox@5ed828d]" name="workshift" duration-ms="8137" started-at="2021-10-17T16:05:26 IST" finished-at="2021-10-17T16:05:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- workshift -->
-        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.jenkins.test.TestngClass@27f723]" name="aftermethod" is-config="true" duration-ms="0" started-at="2021-10-17T13:54:18 IST" finished-at="2021-10-17T13:54:18 IST">
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.jenkins.test.TestngClass_FireFox@5ed828d]" name="aftermethod" is-config="true" duration-ms="1" started-at="2021-10-17T16:05:34 IST" finished-at="2021-10-17T16:05:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.jenkins.test.TestngClass@27f723]" name="afterclass" is-config="true" duration-ms="1" started-at="2021-10-17T13:54:18 IST" finished-at="2021-10-17T13:54:18 IST">
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.jenkins.test.TestngClass_FireFox@5ed828d]" name="afterclass" is-config="true" duration-ms="7848" started-at="2021-10-17T16:05:34 IST" finished-at="2021-10-17T16:05:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.jenkins.test.TestngClass@27f723]" name="aftertest" is-config="true" duration-ms="1" started-at="2021-10-17T13:54:18 IST" finished-at="2021-10-17T13:54:18 IST">
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.jenkins.test.TestngClass_FireFox@5ed828d]" name="aftertest" is-config="true" duration-ms="0" started-at="2021-10-17T16:05:42 IST" finished-at="2021-10-17T16:05:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftertest -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.jenkins.test.TestngClass@27f723]" name="logout" is-config="true" duration-ms="7625" started-at="2021-10-17T13:54:18 IST" finished-at="2021-10-17T13:54:26 IST">
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.jenkins.test.TestngClass_FireFox@5ed828d]" name="logout" is-config="true" duration-ms="1" started-at="2021-10-17T16:05:42 IST" finished-at="2021-10-17T16:05:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-      </class> <!-- com.jenkins.test.TestngClass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.jenkins.test.TestngClass_FireFox -->
+      <class name="com.jenkins.test.TestngClass_Chrome">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jenkins.test.TestngClass_Chrome@4923ab24]" name="setup" is-config="true" duration-ms="13" started-at="2021-10-17T16:03:40 IST" finished-at="2021-10-17T16:03:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:com.jenkins.test.TestngClass_Chrome@4923ab24]" name="beforetest" is-config="true" duration-ms="0" started-at="2021-10-17T16:03:40 IST" finished-at="2021-10-17T16:03:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="Maxwindow()[pri:0, instance:com.jenkins.test.TestngClass_Chrome@4923ab24]" name="Maxwindow" is-config="true" duration-ms="19112" started-at="2021-10-17T16:03:40 IST" finished-at="2021-10-17T16:03:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Maxwindow -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.jenkins.test.TestngClass_Chrome@4923ab24]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2021-10-17T16:03:59 IST" finished-at="2021-10-17T16:03:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="Job_title()[pri:0, instance:com.jenkins.test.TestngClass_Chrome@4923ab24]" name="Job_title" duration-ms="6722" started-at="2021-10-17T16:03:59 IST" finished-at="2021-10-17T16:04:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Job_title -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.jenkins.test.TestngClass_Chrome@4923ab24]" name="aftermethod" is-config="true" duration-ms="0" started-at="2021-10-17T16:04:06 IST" finished-at="2021-10-17T16:04:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.jenkins.test.TestngClass_Chrome@4923ab24]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2021-10-17T16:04:06 IST" finished-at="2021-10-17T16:04:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="paygrade()[pri:1, instance:com.jenkins.test.TestngClass_Chrome@4923ab24]" name="paygrade" duration-ms="6807" started-at="2021-10-17T16:04:06 IST" finished-at="2021-10-17T16:04:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paygrade -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.jenkins.test.TestngClass_Chrome@4923ab24]" name="aftermethod" is-config="true" duration-ms="2" started-at="2021-10-17T16:04:13 IST" finished-at="2021-10-17T16:04:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.jenkins.test.TestngClass_Chrome@4923ab24]" name="BeforeMethod" is-config="true" duration-ms="4" started-at="2021-10-17T16:04:13 IST" finished-at="2021-10-17T16:04:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="EmployeeStatus()[pri:2, instance:com.jenkins.test.TestngClass_Chrome@4923ab24]" name="EmployeeStatus" duration-ms="3347" started-at="2021-10-17T16:04:13 IST" finished-at="2021-10-17T16:04:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmployeeStatus -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.jenkins.test.TestngClass_Chrome@4923ab24]" name="aftermethod" is-config="true" duration-ms="1" started-at="2021-10-17T16:04:16 IST" finished-at="2021-10-17T16:04:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.jenkins.test.TestngClass_Chrome@4923ab24]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2021-10-17T16:04:16 IST" finished-at="2021-10-17T16:04:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="category()[pri:3, instance:com.jenkins.test.TestngClass_Chrome@4923ab24]" name="category" duration-ms="5240" started-at="2021-10-17T16:04:16 IST" finished-at="2021-10-17T16:04:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- category -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.jenkins.test.TestngClass_Chrome@4923ab24]" name="aftermethod" is-config="true" duration-ms="1" started-at="2021-10-17T16:04:21 IST" finished-at="2021-10-17T16:04:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.jenkins.test.TestngClass_Chrome@4923ab24]" name="BeforeMethod" is-config="true" duration-ms="2" started-at="2021-10-17T16:04:21 IST" finished-at="2021-10-17T16:04:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="workshift()[pri:4, instance:com.jenkins.test.TestngClass_Chrome@4923ab24]" name="workshift" duration-ms="6613" started-at="2021-10-17T16:04:21 IST" finished-at="2021-10-17T16:04:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- workshift -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.jenkins.test.TestngClass_Chrome@4923ab24]" name="aftermethod" is-config="true" duration-ms="2" started-at="2021-10-17T16:04:28 IST" finished-at="2021-10-17T16:04:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.jenkins.test.TestngClass_Chrome@4923ab24]" name="afterclass" is-config="true" duration-ms="979" started-at="2021-10-17T16:04:28 IST" finished-at="2021-10-17T16:04:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.jenkins.test.TestngClass_Chrome@4923ab24]" name="aftertest" is-config="true" duration-ms="0" started-at="2021-10-17T16:05:42 IST" finished-at="2021-10-17T16:05:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.jenkins.test.TestngClass_Chrome@4923ab24]" name="logout" is-config="true" duration-ms="0" started-at="2021-10-17T16:05:42 IST" finished-at="2021-10-17T16:05:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.jenkins.test.TestngClass_Chrome -->
+    </test> <!-- Orange Test -->
+  </suite> <!-- sample test suite -->
 </testng-results>

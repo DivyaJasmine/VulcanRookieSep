@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [sample test suite]">
+  <test thread-count="5" verbose="2" name="Orange Test(failed)">
+    <classes>
+      <class name="com.jenkins.test.TestngClass_Chrome">
+        <methods>
+          <include name="EmployeeStatus"/>
+          <include name="paygrade"/>
+          <include name="logout"/>
+          <include name="afterclass"/>
+          <include name="category"/>
+          <include name="BeforeMethod"/>
+          <include name="setup"/>
+          <include name="workshift"/>
+          <include name="beforetest"/>
+          <include name="aftertest"/>
+          <include name="aftermethod"/>
+          <include name="Job_title"/>
+          <include name="Maxwindow"/>
+        </methods>
+      </class> <!-- com.jenkins.test.TestngClass_Chrome -->
+      <class name="com.jenkins.test.TestngClass_FireFox">
+        <methods>
+          <include name="aftertest"/>
+          <include name="BeforeMethod"/>
+          <include name="logout"/>
+          <include name="beforetest"/>
+          <include name="workshift"/>
+          <include name="setup"/>
+          <include name="afterclass"/>
+          <include name="aftermethod"/>
+          <include name="Maxwindow"/>
+        </methods>
+      </class> <!-- com.jenkins.test.TestngClass_FireFox -->
+    </classes>
+  </test> <!-- Orange Test(failed) -->
+</suite> <!-- Failed suite [sample test suite] -->

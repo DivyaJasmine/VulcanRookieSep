@@ -1,8 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="sample test suite" >
-  <test name="SpiceJet Test">
+<suite name="sample test suite" verbose="2" >
+  <test name="Orange Test">
     <classes>
-      <class name="com.jenkins.test.TestngClass"/>
+      <class name="com.jenkins.test.TestngClass_Chrome"/>
+      <class name="com.jenkins.test.TestngClass_FireFox"/>
     </classes>
   </test>
 </suite>

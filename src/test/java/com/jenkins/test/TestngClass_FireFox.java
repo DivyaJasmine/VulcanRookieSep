@@ -18,13 +18,27 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class TestngClass {
+public class TestngClass_FireFox {
 WebDriver driver;
 	
 	@BeforeSuite
 	public void setup() throws InterruptedException {
 	//WebDriverManager.chromedriver().setup();
-		WebDriverManager.firefoxdriver().setup();
+		
+
+	}
+	
+	@BeforeTest
+	public void beforetest(){
+		System.out.println("This is Before Test");
+	}
+	
+	
+	 @BeforeClass 
+	 public void Maxwindow() throws InterruptedException { 
+		 Thread.sleep(5000);
+		 System.out.println("This is Before Class execution");
+		 WebDriverManager.firefoxdriver().setup();
 		driver= new FirefoxDriver();
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 		driver.manage().window().maximize();
@@ -38,18 +52,6 @@ WebDriver driver;
 		login.click();
 		System.out.println("This is BeforeSuite");
 		Thread.sleep(2000);
-
-	}
-	
-	@BeforeTest
-	public void beforetest(){
-		System.out.println("This is Before Test");
-	}
-	
-	
-	 @BeforeClass 
-	 public void Maxwindow() { 
-		 System.out.println("This is Before Class execution");
 	 }
 	 
 	
@@ -173,8 +175,16 @@ WebDriver driver;
 	}
 	
 	@AfterClass
-	public void afterclass() {
+	public void afterclass() throws InterruptedException {
 		System.out.println("End of AfterClass");
+		WebElement welcome=driver.findElement(By.cssSelector("#welcome"));
+		welcome.click();
+		
+		WebElement logout=driver.findElement(By.xpath("//a[text()='Logout']"));
+		logout.click();
+		
+		Thread.sleep(3000);		
+		driver.close();
 	}
 	
 	@AfterTest
@@ -183,13 +193,7 @@ WebDriver driver;
 	}
 	@AfterSuite
 	public void logout() throws InterruptedException {
-		WebElement welcome=driver.findElement(By.cssSelector("#welcome"));
-		welcome.click();
 		
-		WebElement logout=driver.findElement(By.xpath("//a[text()='Logout']"));
-		logout.click();
-		Thread.sleep(3000);		
-		driver.close();
 		System.out.println("End of AfterSuite");
 	}
 

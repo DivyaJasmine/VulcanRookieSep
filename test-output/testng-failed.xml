@@ -3,19 +3,19 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.jenkins.test.TestngClass">
+      <class name="com.jenkins.test.TestngClass_Chrome">
         <methods>
           <include name="workshift"/>
-          <include name="logout"/>
           <include name="beforetest"/>
-          <include name="setup"/>
-          <include name="Maxwindow"/>
+          <include name="logout"/>
+          <include name="aftertest"/>
           <include name="aftermethod"/>
           <include name="afterclass"/>
-          <include name="aftertest"/>
           <include name="BeforeMethod"/>
+          <include name="setup"/>
+          <include name="Maxwindow"/>
         </methods>
-      </class> <!-- com.jenkins.test.TestngClass -->
+      </class> <!-- com.jenkins.test.TestngClass_Chrome -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
