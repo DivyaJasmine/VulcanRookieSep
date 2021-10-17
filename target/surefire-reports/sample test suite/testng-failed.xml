@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [sample test suite]">
+  <test thread-count="5" verbose="0" name="SpiceJet Test(failed)">
+    <classes>
+      <class name="com.jenkins.test.TestngClass">
+        <methods>
+          <include name="workshift"/>
+          <include name="logout"/>
+          <include name="beforetest"/>
+          <include name="setup"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+          <include name="aftertest"/>
+          <include name="BeforeMethod"/>
+        </methods>
+      </class> <!-- com.jenkins.test.TestngClass -->
+    </classes>
+  </test> <!-- SpiceJet Test(failed) -->
+</suite> <!-- Failed suite [sample test suite] -->

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="sample test suite" duration-ms="18819" started-at="2021-10-17T12:59:21 IST" finished-at="2021-10-17T12:59:40 IST">
+    <groups>
+    </groups>
+    <test name="SpiceJet Test" duration-ms="18819" started-at="2021-10-17T12:59:21 IST" finished-at="2021-10-17T12:59:40 IST">
+      <class name="com.jenkins.test.TestngClass">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jenkins.test.TestngClass@453d496b]" name="setup" is-config="true" duration-ms="18959" started-at="2021-10-17T12:59:02 IST" finished-at="2021-10-17T12:59:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:com.jenkins.test.TestngClass@453d496b]" name="beforetest" is-config="true" duration-ms="1" started-at="2021-10-17T12:59:21 IST" finished-at="2021-10-17T12:59:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.jenkins.test.TestngClass@453d496b]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2021-10-17T12:59:21 IST" finished-at="2021-10-17T12:59:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="Job_title()[pri:0, instance:com.jenkins.test.TestngClass@453d496b]" name="Job_title" duration-ms="4116" started-at="2021-10-17T12:59:21 IST" finished-at="2021-10-17T12:59:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Job_title -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.jenkins.test.TestngClass@453d496b]" name="aftermethod" is-config="true" duration-ms="1" started-at="2021-10-17T12:59:25 IST" finished-at="2021-10-17T12:59:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.jenkins.test.TestngClass@453d496b]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2021-10-17T12:59:25 IST" finished-at="2021-10-17T12:59:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="paygrade()[pri:1, instance:com.jenkins.test.TestngClass@453d496b]" name="paygrade" duration-ms="4350" started-at="2021-10-17T12:59:25 IST" finished-at="2021-10-17T12:59:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paygrade -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.jenkins.test.TestngClass@453d496b]" name="aftermethod" is-config="true" duration-ms="0" started-at="2021-10-17T12:59:30 IST" finished-at="2021-10-17T12:59:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="EmployeeStatus()[pri:2, instance:com.jenkins.test.TestngClass@453d496b]" name="EmployeeStatus" duration-ms="2574" started-at="2021-10-17T12:59:30 IST" finished-at="2021-10-17T12:59:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmployeeStatus -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.jenkins.test.TestngClass@453d496b]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2021-10-17T12:59:30 IST" finished-at="2021-10-17T12:59:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.jenkins.test.TestngClass@453d496b]" name="aftermethod" is-config="true" duration-ms="0" started-at="2021-10-17T12:59:32 IST" finished-at="2021-10-17T12:59:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.jenkins.test.TestngClass@453d496b]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2021-10-17T12:59:32 IST" finished-at="2021-10-17T12:59:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="category()[pri:3, instance:com.jenkins.test.TestngClass@453d496b]" name="category" duration-ms="2800" started-at="2021-10-17T12:59:32 IST" finished-at="2021-10-17T12:59:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- category -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.jenkins.test.TestngClass@453d496b]" name="aftermethod" is-config="true" duration-ms="0" started-at="2021-10-17T12:59:35 IST" finished-at="2021-10-17T12:59:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.jenkins.test.TestngClass@453d496b]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2021-10-17T12:59:35 IST" finished-at="2021-10-17T12:59:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="workshift()[pri:4, instance:com.jenkins.test.TestngClass@453d496b]" name="workshift" duration-ms="4870" started-at="2021-10-17T12:59:35 IST" finished-at="2021-10-17T12:59:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- workshift -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.jenkins.test.TestngClass@453d496b]" name="aftermethod" is-config="true" duration-ms="2" started-at="2021-10-17T12:59:40 IST" finished-at="2021-10-17T12:59:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.jenkins.test.TestngClass@453d496b]" name="afterclass" is-config="true" duration-ms="1" started-at="2021-10-17T12:59:40 IST" finished-at="2021-10-17T12:59:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.jenkins.test.TestngClass@453d496b]" name="aftertest" is-config="true" duration-ms="1" started-at="2021-10-17T12:59:40 IST" finished-at="2021-10-17T12:59:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.jenkins.test.TestngClass@453d496b]" name="logout" is-config="true" duration-ms="949" started-at="2021-10-17T12:59:40 IST" finished-at="2021-10-17T12:59:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.jenkins.test.TestngClass -->
+    </test> <!-- SpiceJet Test -->
+  </suite> <!-- sample test suite -->
+</testng-results>
