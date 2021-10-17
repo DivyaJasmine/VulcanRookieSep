@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.jenkins.test.TestngClass">
+        <methods>
+          <include name="workshift"/>
+          <include name="logout"/>
+          <include name="beforetest"/>
+          <include name="setup"/>
+          <include name="Maxwindow"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+          <include name="aftertest"/>
+          <include name="BeforeMethod"/>
+        </methods>
+      </class> <!-- com.jenkins.test.TestngClass -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

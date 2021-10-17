@@ -4,12 +4,13 @@ package com.jenkins.test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
@@ -22,10 +23,11 @@ WebDriver driver;
 	
 	@BeforeSuite
 	public void setup() throws InterruptedException {
-	WebDriverManager.chromedriver().setup();
-	driver= new ChromeDriver();
-	 driver.get("https://opensource-demo.orangehrmlive.com/");
-	 driver.manage().window().maximize();
+	//WebDriverManager.chromedriver().setup();
+		WebDriverManager.firefoxdriver().setup();
+		driver= new FirefoxDriver();
+		driver.get("https://opensource-demo.orangehrmlive.com/");
+		driver.manage().window().maximize();
 		WebElement username=driver.findElement(By.xpath("//input[@name='txtUsername']"));
 		username.sendKeys("Admin");
 		Thread.sleep(2000);
@@ -35,6 +37,7 @@ WebDriver driver;
 		WebElement login=driver.findElement(By.cssSelector("input[class='button']"));
 		login.click();
 		System.out.println("This is BeforeSuite");
+		Thread.sleep(2000);
 
 	}
 	
@@ -43,9 +46,12 @@ WebDriver driver;
 		System.out.println("This is Before Test");
 	}
 	
-	/*
-	 * @BeforeClass public void Maxwindow() { driver.manage().window().maximize(); }
-	 */
+	
+	 @BeforeClass 
+	 public void Maxwindow() { 
+		 System.out.println("This is Before Class execution");
+	 }
+	 
 	
 	@BeforeMethod
 	public void BeforeMethod() throws InterruptedException {
@@ -54,7 +60,7 @@ WebDriver driver;
 	
 	
 	@Test(priority=0)
-	public void Job_title() {
+	public void Job_title() throws InterruptedException {
 		WebElement Admin= driver.findElement(By.xpath("//*[@id=\"menu_admin_viewAdminModule\"]/b"));
 		Admin.click();
 		WebElement jobs=driver.findElement(By.cssSelector("#menu_admin_Job"));
@@ -64,18 +70,19 @@ WebDriver driver;
 		WebElement addJob=driver.findElement(By.xpath("//input[@id='btnAdd']"));
 		addJob.click();
 		WebElement title=driver.findElement(By.cssSelector("#jobTitle_jobTitle"));
-		title.sendKeys("Maveric Test Engineer");
+		title.sendKeys("Maveric Test Associate");
 		WebElement description=driver.findElement(By.xpath("//textarea[@id='jobTitle_jobDescription']"));
 		description.sendKeys("Automation Test Engg");
 		WebElement save=driver.findElement(By.xpath("//input[@id='btnSave']"));
 		save.click();
 		System.out.println("Job_title has been executed");
+		Thread.sleep(2000);
 		
 		}
 	
 	
 	@Test(priority=1)
-	public void paygrade() {
+	public void paygrade() throws InterruptedException {
 		
 		WebElement Admin1= driver.findElement(By.xpath("//*[@id=\'menu_admin_viewAdminModule\']/b"));
 		Admin1.click();
@@ -88,7 +95,7 @@ WebDriver driver;
 		WebElement addbtn= driver.findElement(By.xpath("//input[@id='btnAddCurrency']"));
 		addbtn.click();
 		WebElement Currency=driver.findElement(By.xpath("//input[@id='payGradeCurrency_currencyName']"));
-		Currency.sendKeys("BZD - Belize Dollar");
+		Currency.sendKeys("DKK - Danish Krona");
 		WebElement minimumsal = driver.findElement(By.xpath("//input[@id='payGradeCurrency_minSalary']"));
 		minimumsal.sendKeys("42000.00");
 		WebElement maximumsal = driver.findElement(By.xpath("//input[@id='payGradeCurrency_maxSalary']"));
@@ -96,6 +103,7 @@ WebDriver driver;
 		WebElement savebtn= driver.findElement(By.cssSelector("#btnSaveCurrency"));
 		savebtn.click();
 		System.out.println("paygrade has been executed");
+		Thread.sleep(2000);
 	}
 	
 	@Test(priority=2)
@@ -109,13 +117,13 @@ WebDriver driver;
 		WebElement addbutton=driver.findElement(By.xpath("//input[@id='btnAdd']"));
 		addbutton.click();
 		WebElement empname=driver.findElement(By.xpath("//input[@id='empStatus_name']"));
-		empname.sendKeys("Freelance");
+		empname.sendKeys("Full-Time Contract");
 		WebElement savebtn2= driver.findElement(By.xpath("//input[@id='btnSave']"));
 		savebtn2.click();
 		System.out.println("EmployeeStatus has been executed");
 	}
 	@Test(priority=3)
-	public void category() {
+	public void category() throws InterruptedException {
 		WebElement Admin3= driver.findElement(By.xpath("//*[@id=\'menu_admin_viewAdminModule\']/b"));
 		Admin3.click();
 		WebElement job2=driver.findElement(By.xpath("//*[@id=\'menu_admin_Job\']"));
@@ -125,10 +133,11 @@ WebDriver driver;
 		WebElement addbutton1=driver.findElement(By.xpath("//input[@id='btnAdd']"));
 		addbutton1.click();
 		WebElement categoryname=driver.findElement(By.cssSelector("#jobCategory_name"));
-		categoryname.sendKeys("Technical expert");
+		categoryname.sendKeys("Operatives");
 		WebElement btnsave=driver.findElement(By.id("btnSave"));
 		btnsave.click();
 		System.out.println("category has been executed");
+		Thread.sleep(2000);
 	}
 	
 	@Test(priority=4)
@@ -142,7 +151,7 @@ WebDriver driver;
 		WebElement workshiftbutton= driver.findElement(By.xpath("//input[@id='btnAdd']"));
 		workshiftbutton.click();
 		WebElement shiftname= driver.findElement(By.id("workShift_name"));
-		shiftname.sendKeys("DayLightSaving");
+		shiftname.sendKeys("NormalTiming");
 		WebElement hoursStarts = driver.findElement(By.id("workShift_workHours_from"));
 		// hoursStarts.sendKeys("04:00");
 		Select dropdown = new Select(hoursStarts);
@@ -150,10 +159,11 @@ WebDriver driver;
 		WebElement hourends=driver.findElement(By.id("workShift_workHours_to"));
 		Select dropdown1 = new Select(hourends);
 		dropdown1.selectByValue("14:00");
-		WebElement dummyemp= driver.findElement(By.xpath("//option[contains(text(),'Kallyani Bhute')]"));
+		WebElement dummyemp= driver.findElement(By.xpath("//option[contains(text(),'Maggie Manning')]"));
 		dummyemp.click();
 		driver.findElement(By.xpath("//a[@id='btnAssignEmployee']")).click();
 		driver.findElement(By.xpath("//input[@id='btnSave']")).click();
+		System.out.println("Workshift has been executed");
 		Thread.sleep(2000);
 	}
 	
@@ -172,10 +182,13 @@ WebDriver driver;
 		System.out.println("End of AfterTest");
 	}
 	@AfterSuite
-	public void logout() {
-		WebElement logoutimg= driver.findElement(By.cssSelector("#welcome"));
-		logoutimg.click();
+	public void logout() throws InterruptedException {
+		WebElement welcome=driver.findElement(By.cssSelector("#welcome"));
+		welcome.click();
 		
+		WebElement logout=driver.findElement(By.xpath("//a[text()='Logout']"));
+		logout.click();
+		Thread.sleep(3000);		
 		driver.close();
 		System.out.println("End of AfterSuite");
 	}
