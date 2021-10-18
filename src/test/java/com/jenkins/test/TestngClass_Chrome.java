@@ -23,7 +23,7 @@ WebDriver driver;
 	
 	@BeforeSuite
 	public void setup() throws InterruptedException {
-
+		System.out.println("This is Before Suite");
 	}
 	
 	@BeforeTest
