@@ -50,7 +50,6 @@ WebDriver driver;
 		Thread.sleep(2000);
 		WebElement login=driver.findElement(By.cssSelector("input[class='button']"));
 		login.click();
-		System.out.println("This is BeforeSuite");
 		Thread.sleep(2000);
 	 }
 	 
